@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 from pathlib import Path
-
+PORT = int(os.environ.get('PORT', 5000))
 import dj_database_url
 if os.path.isfile("env.py"):
     import env
@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['project-4-blog.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['project-4-blog.herokuapp.com', 'localhost', '8080-mikyrenato-project4blog-6rgfqrfwlqy.ws-eu93.gitpod.io']
 
 
 # Application definition
