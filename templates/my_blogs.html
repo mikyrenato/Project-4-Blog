@@ -20,10 +20,10 @@
                       <p class="card-text d-flex flex-row">
                         {{blog.title|truncatechars:15}}
                         <a class="px-2 ml-auto" href="{% url 'update_blog' blog.slug %}">
-                          <i class="fa fa-edit"></i>
+                          <i class="fa fa-edit">Edit</i>
                         </a>
                         <a class="px-2" href="?delete={{blog.pk}}">
-                          <i class="fa fa-trash text-danger"></i>
+                          <i class="fa fa-trash text-danger">Delete</i>
                         </a>
                       </p>
                     </div>
