@@ -42,10 +42,6 @@ INSTALLED_APPS = [
     'notification',
     'ckeditor',
     'crispy_forms',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'django_summernote',
 ]
 
 
