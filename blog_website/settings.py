@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'user_profile',
     'notification',
     'ckeditor',
-    'crispy_forms',
 ]
 
 
