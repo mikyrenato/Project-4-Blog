@@ -16,5 +16,4 @@ Project Summary and Features
   + Implementing generic relations
   + Notification system
   + Mute unmute notifications
-  + Deployment on pythonanywhere
 
