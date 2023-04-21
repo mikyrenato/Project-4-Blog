@@ -62,7 +62,7 @@
                           <ul class="post-share">
                             <li id="like-count">{{blog.likes.count}}</li>
                             {% if liked_by %}
-                            <li class="pl-3 pr-3">Like<a href="{% url 'login' %}"><i class="fa fa-heart"></i></a></li>
+                            <li class="pl-3 pr-3"><a href="{% url 'login' %}"><i class="fa fa-heart"></i></a></li>
                             {% else %}
                             <li class="pl-3 pr-3"><a href="{% url 'login' %}"><i class="fa fa-heart empty-heart"></i></a></li>
                             {% endif %}
