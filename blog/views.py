@@ -311,3 +311,23 @@ def update_blog(request, slug):
         "blog": blog
     }
     return render(request, 'update_blog.html', context)
+
+
+# Feedback
+
+from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
+
+from .models import Feedback
+
+@login_required
+def send_feedback(request):
+    if request.method == 'POST':
+        message = request.POST.get('message')
+        user = request.user
+        feedback = Feedback(user=user, message=message)
+        feedback.save()
+        return render(request, 'feedback_sent.html')
+    else:
+        return render(request, 'send_feedback.html')
+
