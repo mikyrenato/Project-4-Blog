@@ -48,10 +48,11 @@
                           <ul class="post-share">
                             <li id="like-count">{{blog.likes.count}}</li>
                             {% if liked_by %}
-                            <li class="pl-3 pr-3"><a href="javascript:void(0);">Like</a></li>
+                            <li class="pl-3 pr-3"><a href="javascript:void(0);"><i id="like-icon" data-blog="{{blog.id}}" class="fa fa-heart">Like</i></a></li>
                             {% else %}
-                            <li class="pl-3 pr-3"><a href="javascript:void(0);">Like</a></li>
+                            <li class="pl-3 pr-3"><a href="javascript:void(0);"><i id="like-icon" data-blog="{{blog.id}}" class="fa fa-heart empty-heart">Like</i></a></li>
                             {% endif %}
+                            <li><i class="fa fa-share-alt"></i></li>
                             <li><a href="https://www.facebook.com/">Facebook</a>,</li>
                             <li><a href="https://twitter.com/"> Twitter</a></li>
                           </ul>
