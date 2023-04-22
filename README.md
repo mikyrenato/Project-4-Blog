@@ -13,7 +13,6 @@ Project Summary and Features
   + Like blogs
   + Comment and replies on blogs
   + Follow unfollow other users
-  + Implementing generic relations
   + Notification system
   + Mute unmute notifications
 
