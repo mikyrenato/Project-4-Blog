@@ -79,17 +79,6 @@ This application was developed using agile methodology.
 
 
 # Features
-## Existing Features
-### Browser Tabs
-The browser tab contains Happy Beans' favicon and the title of the page to clearly indicate which page is open.
-The favicon was generated from the logo using [RealFaviconGenerator](https://realfavicongenerator.net/). 
-
-<img src="docs/images/browser-tabs.png" width=800>
-
-### Logo
-The logo was created using [Wix](https://www.wix.com/). The logo on the navigation bar functions as a link back to the Home page for ease of navigation.  
-
-<img src="docs/images/navbar-logo.png" width=200>
 
 ### Navigation Bar
 The navigation bar is fixed at the top of every page and includes links to other pages.
