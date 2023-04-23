@@ -96,31 +96,11 @@ This application was developed using agile methodology.
 
 # Features
 
+
 ### Navigation Bar
 The navigation bar is fixed at the top of every page and includes links to other pages.
 The link for the current page is shown in blue to visually indicate which page the user is on.
 <img src="staticfiles/images/nav.png">
-
-
-### Footer
-The footer includes links to Facebook, Twitter and LinkedIn. 
-
-
-
-### Sign Up Page
-
-
-Sign Up page is accessed from the Login page on the sign up button. 
-Users can enter their details here to register and log in. 
-
-### Log In Page
-
-
-Log In page is accessed from the Log In link on the navigation bar, which is available to users who are not logged in already.
-Returning users can enter their details here to log in to avail of all the features.
-
-<img src="staticfiles/images/log.png">
-
 
 ### Home Page
 
@@ -128,6 +108,36 @@ The home page has contains the nav bar with all relevant links(Home, Blogs, Cate
 
 <img src="staticfiles/images/home.png">
 <img src="staticfiles/images/footer.png">
+
+### Sign Up Page
+
+Sign Up page is accessed from the Login page on the sign up button. 
+Users can enter their details here to register and log in. 
+
+### Log In Page
+
+Log In page is accessed from the Log In link on the navigation bar, which is available to users who are not logged in already.
+Returning users can enter their details here to log in to avail of all the features.
+
+<img src="staticfiles/images/log.png">
+
+
+### Category
+
+The category button is a dropdown menu which can be used as a filter by category
+
+<img src="staticfiles/images/category.png">
+
+### User(User name after loggin in)
+
+The user button appears when you are loggedin and it is a dropdown menu which includes: "My profile", "Notifications" and "Logout" options.
+
+<img src="staticfiles/images/user.png">
+
+
+### Footer
+The footer includes links to Facebook, Twitter and LinkedIn. 
+
 
 
 
