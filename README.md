@@ -132,7 +132,7 @@ The category button is a dropdown menu which can be used as a filter by category
 
 The user button appears when you are loggedin and it is a dropdown menu which includes: "My profile", "Notifications" and "Logout" options.
 
-<img src="staticfiles/images/user.png">
+<img src="staticfiles/images/.png">
 
 
 ### Footer
