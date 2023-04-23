@@ -232,7 +232,7 @@ The following are the steps to deploy the application on Heroku.
 
 
  ## Credits
- This tutorial helped me put the base of my Django project, it's a great tutorial explaining step by step how to build a project like this. [Tutorial](https://www.youtube.com/watch?v=WpyXXBTcERc&list=PLFIUQuoVboS-nnEsyVYuwS0S1-tQJRwc8&index=8&t=13s&ab_channel=NabilMoiun)
+ This tutorial helped me put the base of my Django project, it's a great tutorial explaining step by step how to build a project like this [Django Tutorial](https://www.youtube.com/watch?v=WpyXXBTcERc&list=PLFIUQuoVboS-nnEsyVYuwS0S1-tQJRwc8&index=8&t=13s&ab_channel=NabilMoiun)
 
  I used [this repository](https://github.com/mikyrenato/happy-beans) to inspire myself when creating the readme file.
 
