@@ -54,6 +54,69 @@ As a user, I want to be able to perform advanced searches and filtering on blogs
 User Stories
 As a user, I want to be able to search for blogs based on advanced parameters such as author and keyword.
 
+Epic 6: Feedback and Support
+As a user, I want to be able to give feedback and receive support from the admin so that I can improve my experience on the platform.
+
+User Stories
+As a user, I want to be able to contact the admin through a support form so that I can report bugs or suggest improvements.
+As a user, I want to be able to receive timely and helpful responses from the admin so that my issues can be resolved quickly.
+As an admin, I want to be able to track user feedback and support requests so that I can improve the platform based on user needs.
+As an admin, I want to be able to respond to user feedback and support requests in a timely and professional manner so that users feel heard and valued.
+
+
+## Agile Methodology
+This application was developed using agile methodology. 
+
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+
+
+
+# Features
+## Existing Features
+### Browser Tabs
+The browser tab contains Happy Beans' favicon and the title of the page to clearly indicate which page is open.
+The favicon was generated from the logo using [RealFaviconGenerator](https://realfavicongenerator.net/). 
+
+<img src="docs/images/browser-tabs.png" width=800>
+
+### Logo
+The logo was created using [Wix](https://www.wix.com/). The logo on the navigation bar functions as a link back to the Home page for ease of navigation.  
+
+<img src="docs/images/navbar-logo.png" width=200>
+
+### Navigation Bar
+The navigation bar is fixed at the top of every page and includes links to other pages.
+The link for the current page is shown in green to visually indicate which page the user is on.
+
+
+### Footer
+The footer includes links to Facebook, Twitter and LinkedIn. 
+
+
+
+### Sign Up Page
+
+
+Sign Up page is accessed from the Sign Up button on the Home page or the Sing Up link on the navigation bar, which are available to users who are not logged in already. 
+Users can enter their details here to register and log in. 
+
+### Log In Page
+
+
+Log In page is accessed from the Log In link on the navigation bar, which is available to users who are not logged in already.
+Returning users can enter their details here to log in to avail of all the features.
+
+
+### Home Page
+
+
 
 Project Summary and Features
 ================
