@@ -94,7 +94,7 @@ The footer includes links to Facebook, Twitter and LinkedIn.
 ### Sign Up Page
 
 
-Sign Up page is accessed from the Sign Up button on the Home page or the Sing Up link on the navigation bar, which are available to users who are not logged in already. 
+Sign Up page is accessed from the Login page on the sign up button. 
 Users can enter their details here to register and log in. 
 
 ### Log In Page
@@ -103,8 +103,14 @@ Users can enter their details here to register and log in.
 Log In page is accessed from the Log In link on the navigation bar, which is available to users who are not logged in already.
 Returning users can enter their details here to log in to avail of all the features.
 
+<img src="staticfiles/images/log.png">
+
 
 ### Home Page
+
+The home page has contains the nav bar with all relevant links(Home, Blogs, Category, User) and the footer.
+
+<img src="staticfiles/images/home.png">
 
 
 
