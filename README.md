@@ -4,6 +4,8 @@
 This Blog Website Django app is a powerful web application designed to facilitate the creation, management, and sharing of blog posts. With a comprehensive set of features, the app offers a complete solution for bloggers, content creators, and website owners.
 Overall, the Blog Website app provides a powerful and comprehensive solution for anyone looking to create, manage, and share their blog content in a secure and flexible manner.
 
+<img src="staticfiles/images/home.png">
+
 Click here to view [Blog](https://project-4-blog.herokuapp.com/)
 
 
@@ -68,14 +70,12 @@ As an admin, I want to be able to respond to user feedback and support requests 
 This application was developed using agile methodology. 
 
 <img src="staticfiles/images/agile1.png">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-
+<img src="staticfiles/images/agile2.png">
+<img src="staticfiles/images/agile3.png">
+<img src="staticfiles/images/agile4.png">
+<img src="staticfiles/images/agile5.png">
+<img src="staticfiles/images/agile6.png">
+<img src="staticfiles/images/agile7.png">
 
 
 # Features
