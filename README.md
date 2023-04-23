@@ -250,4 +250,4 @@ The following are the steps to deploy the application on Heroku.
 ----
  ## Acknowledgements
 
- Thank you to my mentor Harry Dhillon for his guidance and support and to my friend Marcin Placek for helping me with the testing of the website.
+ Many thanks to my mentor Harry Dhillon for his guidance and support and to my friend Marcin Placek for helping me with the testing of the website.
