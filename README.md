@@ -94,6 +94,14 @@ This application was developed using agile methodology.
 <img src="staticfiles/images/agile7.png">
 
 
+# Design
+
+The color paletteI chose is blue and white. It is a popular combination that can evoke a sense of calmness, professionalism, and simplicity.
+White is a neutral color that can help create a clean and modern look for a website. It also provides a blank canvas that can be complemented with other colors to add emphasis or contrast.
+Blue, on the other hand, is often associated with trust, stability, and intelligence. It can convey a sense of security, which makes it a popular choice for corporate and financial websites. Blue can also be used to create a sense of depth and serenity, making it a popular choice for websites related to wellness, health, or technology.
+When used together, blue and white can create a sophisticated and elegant aesthetic that can be easily associated with professionalism and quality. The combination is a classic choice for businesses, organizations, and individuals looking for a timeless and reliable look for their website.
+
+
 # Features
 
 
@@ -163,7 +171,62 @@ The footer includes links to Facebook, Twitter and LinkedIn.
 <img src="staticfiles/images/feedback.png">
 <img src="staticfiles/images/thanks.png">
 
-### Follow/Unfollow other user
-You can as well follo/unfollow other users:
+### Follow/Unfollow and Mute/Unmute notifications
+You can as well follo/unfollow other users and mute/unmute notifications:
 <img src="staticfiles/images/follow.png">
+
+### Comment and like on other users posts
+There is a functinality built, which allows other user to comment and like your posts:
+<img src="staticfiles/images/com.png">
+
+
+# Technologies Used
+
+## Languages
+* [HTML](https://html.spec.whatwg.org/) was used to create the content and structure for the application.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) was used to add styling to the application.
+* [Python](https://www.python.org/) was used to add functionality to the application.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was used to create interactive content for the application.
+
+## Frameworks, Libraries and Tools Used within the Application
+* [Django](https://www.djangoproject.com/) was used as the main Python framework for the application.
+* [ElephantSQL](https://www.elephantsql.com/) was used for the Production database.
+* [Cloudinary](https://cloudinary.com/) was used to store all static files and images. I had quite a challanging time with this as it wasn't reading all my CSS, still not able to show "fontawesome" icons, this is still to be implemented in the future.
+* [Git](https://git-scm.com/) was used for version control and tracked changes in the codes.
+* [GitHub](https://github.com/) was used to store the repository and the codes.
+* [Gitpod](https://www.gitpod.io/) was used to create, edit and preview the codes during the development.
+* [Heroku](https://id.heroku.com/login) was used to deploy the application.
+
+## Validators
+* [W3C HTML Validator](https://validator.w3.org/) was used to validate HTML codes.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS codes.
+* [JSHint](https://jshint.com/) was used to validate JavaScript codes.
+* [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate Python codes.
+
+### Deployment - Heroku
+The following are the steps to deploy the application on Heroku.
+
+1. Create a repository in GitHub using [Code Institute template](https://github.com/Code-Institute-Org/gitpod-full-template)
+2. Open GitPod from the newly created repository
+3. Install Django and supporting libraries:
+4. Create requirements.txt
+5. Create a Django project
+6. Create an app
+7. Add the newly created app into settings.py
+8. Migrate the Changes
+9. Run the server to verify that the basic skelton project is now up and running
+10. Create an app in [Heroku](https://dashboard.heroku.com/login)
+11. Create a database in [ElphantSQL](https://www.elephantsql.com/)
+12. Create an env.py
+13. Add SQLite database to .gitignore file
+14. Modify settings.py file
+15. Migrate Database Structure to the ElephantSQL database
+16. Push the Changes to GitHub
+17. Set Up Cloudinary
+18. Set up Heroku Config Vars
+19. Update settings.py
+20. Create Static Files
+21. Create Procfile
+22. Push the Changes to GitHub
+23. Deploy the app in Heroku
 
