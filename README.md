@@ -6,6 +6,22 @@ Overall, the Blog Website app provides a powerful and comprehensive solution for
 
 <img src="staticfiles/images/home.png">
 
+Project Summary and Features
+================
+
+  + Crud operation on blogs
+  + Custom user model
+  + Registration
+  + Authentication through username plus email
+  + Personal profile management
+  + Filter blogs by different criteria (title, category, tags)
+  + Search blogs by different criteria
+  + Like blogs
+  + Comment and replies on blogs
+  + Follow unfollow other users
+  + Notification system
+  + Mute unmute notifications
+
 Click here to view website: [Blog](https://project-4-blog.herokuapp.com/)
 
 
@@ -114,20 +130,4 @@ The home page has contains the nav bar with all relevant links(Home, Blogs, Cate
 <img src="staticfiles/images/footer.png">
 
 
-
-Project Summary and Features
-================
-
-  + Crud operation on blogs
-  + Custom user model
-  + Registration
-  + Authentication through username plus email
-  + Personal profile management
-  + Filter blogs by different criteria (title, category, tags)
-  + Search blogs by different criteria
-  + Like blogs
-  + Comment and replies on blogs
-  + Follow unfollow other users
-  + Notification system
-  + Mute unmute notifications
 
