@@ -39,6 +39,21 @@ As a user, I want to be able to login using my email and password so that I can 
 As a user, I want my account to be authenticated through both username and email so that my account is more secure.
 As a user, I want my password to be encrypted and my account information to be secure so that my data is safe from unauthorized access.
 
+Epic 4: Blog Interaction
+As a user, I want to be able to interact with other users' blog posts by commenting and replying to comments.
+
+User Stories
+As a user, I want to be able to comment on other users' blog posts so that I can express my thoughts and opinions.
+As a user, I want to be able to reply to other users' comments so that I can continue the conversation and engage with the community.
+As a user, I want to be able to like other users' comments so that I can express my agreement.
+As a user, I want to be able to receive notifications for new comments and replies on my blog posts so that I can stay engaged with the community.
+
+Epic 5: Advanced Search and Filtering
+As a user, I want to be able to perform advanced searches and filtering on blogs based on various parameters.
+
+User Stories
+As a user, I want to be able to search for blogs based on advanced parameters such as author and keyword.
+
 
 Project Summary and Features
 ================
