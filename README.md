@@ -6,7 +6,7 @@ Overall, the Blog Website app provides a powerful and comprehensive solution for
 
 <img src="staticfiles/images/home.png">
 
-Click here to view [Blog](https://project-4-blog.herokuapp.com/)
+Click here to view website: [Blog](https://project-4-blog.herokuapp.com/)
 
 
 # UXD - User Experience Design
@@ -82,7 +82,8 @@ This application was developed using agile methodology.
 
 ### Navigation Bar
 The navigation bar is fixed at the top of every page and includes links to other pages.
-The link for the current page is shown in green to visually indicate which page the user is on.
+The link for the current page is shown in blue to visually indicate which page the user is on.
+<img src="staticfiles/images/nav.png">
 
 
 ### Footer
