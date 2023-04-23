@@ -108,7 +108,7 @@ Returning users can enter their details here to log in to avail of all the featu
 
 ### Home Page
 
-The home page has contains the nav bar with all relevant links(Home, Blogs, Category, User) and the footer.
+The home page has contains the nav bar with all relevant links(Home, Blogs, Category, User).
 
 <img src="staticfiles/images/home.png">
 
