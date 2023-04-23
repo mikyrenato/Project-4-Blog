@@ -98,7 +98,7 @@ This application was developed using agile methodology.
 
 
 ### Navigation Bar
-The navigation bar is fixed at the top of every page and includes links to other pages.
+The navigation bar is fixed at the top of every page and includes links to other pages and a search box(searching posts).
 The link for the current page is shown in blue to visually indicate which page the user is on.
 <img src="staticfiles/images/nav.png">
 
@@ -108,6 +108,14 @@ The home page has contains the nav bar with all relevant links(Home, Blogs, Cate
 
 <img src="staticfiles/images/home.png">
 <img src="staticfiles/images/footer.png">
+
+
+### Blogs Page
+
+This Page shows the latest blog posts.
+
+<img src="staticfiles/images/blogs.png">
+
 
 ### Sign Up Page
 
@@ -134,10 +142,28 @@ The user button appears when you are loggedin and it is a dropdown menu which in
 
 <img src="staticfiles/images/users.png">
 
+My Profile: The users can edit their details from here:
+<img src="staticfiles/images/profile.png">
+Using the My blogs page, users can view, edit and delete their posts.
+<img src="staticfiles/images/myblogs.png">
+<img src="staticfiles/images/edit.png">
+
+
+### Notifications
+
+From the notifications page you can view notifications regarding your posts(i.e another user liked your post)
+
+<img src="staticfiles/images/notifications.png">
+
+
 
 ### Footer
 The footer includes links to Facebook, Twitter and LinkedIn. 
+<img src="staticfiles/images/footer.png">
+<img src="staticfiles/images/feedback.png">
+<img src="staticfiles/images/thanks.png">
 
-
-
+### Follow/Unfollow other user
+You can as well follo/unfollow other users:
+<img src="staticfiles/images/follow.png">
 
