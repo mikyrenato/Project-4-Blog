@@ -67,7 +67,7 @@ As an admin, I want to be able to respond to user feedback and support requests 
 ## Agile Methodology
 This application was developed using agile methodology. 
 
-<img src="">
+<img src="staticfiles/images/agile.png">
 <img src="">
 <img src="">
 <img src="">
