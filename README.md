@@ -191,13 +191,15 @@ There is a functinality built, which allows other user to comment and like your 
 ## Frameworks, Libraries and Tools Used within the Application
 * [Django](https://www.djangoproject.com/) was used as the main Python framework for the application.
 * [ElephantSQL](https://www.elephantsql.com/) was used for the Production database.
-* [Cloudinary](https://cloudinary.com/) was used to store all static files and images. I had quite a challanging time with this as it wasn't reading all my CSS,not able to show "fontawesome" icons and some characters in the Description table(they all work perfectly on local), therefore I took the decision to use instead [Withenoise](https://whitenoise.readthedocs.io/en/latest/), after disussing this with my mentor, only to realize later that you can't upload images on whitenoise, so what I did next was to use both Cloudianry (to store the images) and Whitenoise (to store the rest of the static files).
+* [Cloudinary](https://cloudinary.com/) was used initialy to store all static files and images. I had quite a challanging time with this as it wasn't reading all my CSS,not able to show "fontawesome" icons and some characters in the Description table(they all work perfectly on local), therefore I took the decision to use instead [Withenoise](https://whitenoise.readthedocs.io/en/latest/), only to realize later that you can't upload images on whitenoise, so what I did next was to use both Cloudianry (to store the images) and Whitenoise (to store the rest of the static files).
 * [Git](https://git-scm.com/) was used for version control and tracked changes in the codes.
 * [GitHub](https://github.com/) was used to store the repository and the codes.
 * [Gitpod](https://www.gitpod.io/) was used to create, edit and preview the codes during the development.
 * [Heroku](https://id.heroku.com/login) was used to deploy the application.
 
-## Validators
+## Testing
+* Lighthouse for performance check:
+<img src="staticfiles/images/lighthouse.png">
 * [W3C HTML Validator](https://validator.w3.org/) was used to validate HTML codes.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS codes.
 * [JSHint](https://jshint.com/) was used to validate JavaScript codes.
