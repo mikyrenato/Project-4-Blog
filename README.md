@@ -231,7 +231,7 @@ The following are the steps to deploy the application on Heroku.
 14. Modify settings.py file
 15. Migrate Database Structure to the ElephantSQL database
 16. Push the Changes to GitHub
-17. Set Up Cloudinary
+17. Set Up Cloudinary and Whitenoise
 18. Set up Heroku Config Vars
 19. Update settings.py
 20. Create Static Files
