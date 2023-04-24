@@ -154,19 +154,19 @@ My Profile: The users can edit their details from here:
 <img src="staticfiles/images/profile.PNG">
 Using the My blogs page, users can view, edit and delete their posts.
 <img src="staticfiles/images/myblogs.PNG">
-<img src="staticfiles/images/add.png">
+<img src="staticfiles/images/add.PNG">
 
 
 ### Notifications
 
 From the notifications page you can view notifications regarding your posts(i.e another user liked your post or started to follow you.)
 
-<img src="staticfiles/images/notifications.png">
+<img src="staticfiles/images/notifications.PNG">
 
 
 
 ### Footer
-The footer includes links to Facebook, Twitter and LinkedIn. 
+The footer includes links to Facebook, Twitter and LinkedIn plus a link where user can send feedback to the admin. 
 <img src="staticfiles/images/footer.png">
 <img src="staticfiles/images/feedback.png">
 <img src="staticfiles/images/thanks.png">
