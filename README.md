@@ -159,7 +159,7 @@ Using the My blogs page, users can view, edit and delete their posts.
 
 ### Notifications
 
-From the notifications page you can view notifications regarding your posts(i.e another user liked your post)
+From the notifications page you can view notifications regarding your posts(i.e another user liked your post or started to follow you.)
 
 <img src="staticfiles/images/notifications.png">
 
