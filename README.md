@@ -209,7 +209,7 @@ There is a functinality built, which allows other user to comment and like your 
 * [JSHint](https://jshint.com/) was used to validate JavaScript codes.
 <img src="staticfiles/images/js1.PNG">
 <img src="staticfiles/images/js2.PNG">
-Due to time constrain, I wasn't able to clear all error(this time was a little bit more time consuming than on previous projects, due to the complexity of this project), but will definetlly clear all of them in the near future.
+Due to time constraint, I wasn't able to clear all error (this time was a little bit more time consuming than on previous projects, due to the complexity of this project), but will definetlly clear all of them in the near future.
 
 
 ### Deployment - Heroku
