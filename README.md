@@ -142,7 +142,7 @@ Returning users can enter their details here to log in to avail of all the featu
 
 The category button is a dropdown menu which can be used as a filter by category
 
-<img src="staticfiles/images/category.PNG">
+<img src="staticfiles/images/categories.PNG">
 
 ### User(User name after loggin in)
 
@@ -169,8 +169,8 @@ From the notifications page you can view notifications regarding your posts(i.e 
 ### Footer
 The footer includes links to Facebook, Twitter and LinkedIn plus a link where user can send feedback to the admin. 
 <img src="staticfiles/images/footer.png">
-<img src="staticfiles/images/feedback.png">
-<img src="staticfiles/images/thanks.png">
+<img src="staticfiles/images/feedback.PNG">
+<img src="staticfiles/images/thanks.PNG">
 
 ### Follow/Unfollow and Mute/Unmute notifications
 You can as well follo/unfollow other users and mute/unmute notifications:
