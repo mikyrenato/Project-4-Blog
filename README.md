@@ -142,7 +142,7 @@ Returning users can enter their details here to log in to avail of all the featu
 
 The category button is a dropdown menu which can be used as a filter by category
 
-<img src="staticfiles/images/category.PNG">
+<img src="staticfiles/images/category.png">
 
 ### User(User name after loggin in)
 
@@ -153,8 +153,8 @@ The user button appears when you are loggedin and it is a dropdown menu which in
 My Profile: The users can edit their details from here:
 <img src="staticfiles/images/profile.PNG">
 Using the My blogs page, users can view, edit and delete their posts.
-<img src="staticfiles/images/myblogs.png">
-<img src="staticfiles/images/edit.png">
+<img src="staticfiles/images/myblogs.PNG">
+<img src="staticfiles/images/add.png">
 
 
 ### Notifications
