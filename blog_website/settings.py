@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['project-4-blog.herokuapp.com', 'localhost', '8080-mikyrenato-p
 # Application definition
 
 INSTALLED_APPS = [
-    'cloudinary_storage',
+    # 'cloudinary_storage',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'user_profile',
     'notification',
     'ckeditor',
-    'cloudinary',
+    # 'cloudinary',
 
 ]
 
@@ -118,7 +118,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 
 MEDIA_URL = '/media/'
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+# DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 STATIC_URL = '/static/'
 # STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
