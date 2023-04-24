@@ -156,7 +156,7 @@ header {
 	z-index: 99999;
 	width: 100%;
 	height: 100px;
-	background-color: #d3d3d3;
+	background-color: #120aef;
 	-webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
@@ -185,7 +185,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #120aef!important;
+	color: #c7c6c3!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -193,7 +193,7 @@ header .navbar {
 	outline: none;
 }
 .navbar .navbar-brand h2 {
-	color: #1e1e1e;
+	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 900;
@@ -222,7 +222,7 @@ header .navbar {
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
-	color: #1e1e1e;
+	color: #ffffff;
 	transition: all 0.3s;
 }
 .navbar .navbar-nav .nav-link:hover,
@@ -230,7 +230,7 @@ header .navbar {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #120aef;
+	color: #c3c3c7;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
