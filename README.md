@@ -4,7 +4,7 @@
 This Blog Website Django app is a powerful web application designed to facilitate the creation, management, and sharing of blog posts. With a comprehensive set of features, the app offers a complete solution for bloggers, content creators, and website owners.
 Overall, the Blog Website app provides a powerful and comprehensive solution for anyone looking to create, manage, and share their blog content in a secure and flexible manner.
 
-<img src="staticfiles/images/home.png">
+<img src="staticfiles/images/home.PNG">
 
 Project Summary and Features
 ================
