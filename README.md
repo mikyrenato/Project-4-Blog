@@ -173,11 +173,11 @@ The footer includes links to Facebook, Twitter and LinkedIn plus a link where us
 
 ### Follow/Unfollow and Mute/Unmute notifications
 You can as well follo/unfollow other users and mute/unmute notifications:
-<img src="staticfiles/images/follow.png">
+<img src="staticfiles/images/follow.PNG">
 
 ### Comment and like on other users posts
 There is a functinality built, which allows other user to comment and like your posts:
-<img src="staticfiles/images/com.png">
+<img src="staticfiles/images/comment.PNG">
 
 
 # Technologies Used
