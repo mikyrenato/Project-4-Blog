@@ -31,55 +31,55 @@ Epic 1: Blog Management
 As a user, I want to be able to perform CRUD operations on blogs so that I can create, read, update and delete my own blogs or blogs of other users.
 
 User Stories
-As a user, I want to be able to create a new blog post so that I can share my ideas with others.
-As a user, I want to be able to edit my existing blog post so that I can make changes to my post whenever I want.
-As a user, I want to be able to delete my own blog post so that I can remove any unwanted posts from my profile.
-As a user, I want to be able to view other users' blog posts so that I can read and learn from them.
-As a user, I want to be able to filter the blogs by different criteria such as title, category, and tags so that I can easily find the blogs of my interest.
++ As a user, I want to be able to create a new blog post so that I can share my ideas with others.
++ As a user, I want to be able to edit my existing blog post so that I can make changes to my post whenever I want.
++ As a user, I want to be able to delete my own blog post so that I can remove any unwanted posts from my profile.
++ As a user, I want to be able to view other users' blog posts so that I can read and learn from them.
++ As a user, I want to be able to filter the blogs by different criteria such as title, category, and tags so that I can easily find the blogs of my interest.
 
 Epic 2: User Management
 As a user, I want to be able to manage my personal profile and interact with other users in the platform.
 
 User Stories
-As a user, I want to be able to register on the platform using my email and password so that I can create an account and use the platform.
-As a user, I want to be able to update my profile information such as name, profile picture.
-As a user, I want to be able to search for other users on the platform so that I can connect with them.
-As a user, I want to be able to follow/unfollow other users so that I can stay updated with their latest blog posts.
-As a user, I want to be able to like and comment on other users' blog posts so that I can interact with them.
-As a user, I want to be able to receive notifications for activities such as likes, comments, and follows so that I can stay informed.
-As a user, I want to be able to mute/unmute notifications so that I can customize my notification settings according to my preferences.
++ As a user, I want to be able to register on the platform using my email and password so that I can create an account and use the platform.
++ As a user, I want to be able to update my profile information such as name, profile picture.
++ As a user, I want to be able to search for other users on the platform so that I can connect with them.
++ As a user, I want to be able to follow/unfollow other users so that I can stay updated with their latest blog posts.
++ As a user, I want to be able to like and comment on other users' blog posts so that I can interact with them.
++ As a user, I want to be able to receive notifications for activities such as likes, comments, and follows so that I can stay informed.
++ As a user, I want to be able to mute/unmute notifications so that I can customize my notification settings according to my preferences.
 
 Epic 3: Security and Authentication
 As a user, I want my data to be secure and my account to be authenticated through multiple means.
 
 User Stories
-As a user, I want to be able to login using my email and password so that I can access my account.
-As a user, I want my account to be authenticated through both username and email so that my account is more secure.
-As a user, I want my password to be encrypted and my account information to be secure so that my data is safe from unauthorized access.
++ As a user, I want to be able to login using my email and password so that I can access my account.
++ As a user, I want my account to be authenticated through both username and email so that my account is more secure.
++ As a user, I want my password to be encrypted and my account information to be secure so that my data is safe from unauthorized access.
 
 Epic 4: Blog Interaction
 As a user, I want to be able to interact with other users' blog posts by commenting and replying to comments.
 
 User Stories
-As a user, I want to be able to comment on other users' blog posts so that I can express my thoughts and opinions.
-As a user, I want to be able to reply to other users' comments so that I can continue the conversation and engage with the community.
-As a user, I want to be able to like other users' comments so that I can express my agreement.
-As a user, I want to be able to receive notifications for new comments and replies on my blog posts so that I can stay engaged with the community.
++ As a user, I want to be able to comment on other users' blog posts so that I can express my thoughts and opinions.
++ As a user, I want to be able to reply to other users' comments so that I can continue the conversation and engage with the community.
++ As a user, I want to be able to like other users' comments so that I can express my agreement.
++ As a user, I want to be able to receive notifications for new comments and replies on my blog posts so that I can stay engaged with the community.
 
 Epic 5: Advanced Search and Filtering
 As a user, I want to be able to perform advanced searches and filtering on blogs based on various parameters.
 
 User Stories
-As a user, I want to be able to search for blogs based on advanced parameters such as author and keyword.
++ As a user, I want to be able to search for blogs based on advanced parameters such as author and keyword.
 
 Epic 6: Feedback and Support
 As a user, I want to be able to give feedback and receive support from the admin so that I can improve my experience on the platform.
 
 User Stories
-As a user, I want to be able to contact the admin through a support form so that I can report bugs or suggest improvements.
-As a user, I want to be able to receive timely and helpful responses from the admin so that my issues can be resolved quickly.
-As an admin, I want to be able to track user feedback and support requests so that I can improve the platform based on user needs.
-As an admin, I want to be able to respond to user feedback and support requests in a timely and professional manner so that users feel heard and valued.
++ As a user, I want to be able to contact the admin through a support form so that I can report bugs or suggest improvements.
++ As a user, I want to be able to receive timely and helpful responses from the admin so that my issues can be resolved quickly.
++ As an admin, I want to be able to track user feedback and support requests so that I can improve the platform based on user needs.
++ As an admin, I want to be able to respond to user feedback and support requests in a timely and professional manner so that users feel heard and valued.
 
 
 ## Agile Methodology
@@ -107,12 +107,12 @@ When used together, blue and white can create a sophisticated and elegant aesthe
 
 ### Navigation Bar
 The navigation bar is fixed at the top of every page and includes links to other pages and a search box(searching posts).
-The link for the current page is shown in blue to visually indicate which page the user is on.
+The link for the current page is shown in grey to visually indicate which page the user is on.
 <img src="staticfiles/images/nav.PNG">
 
 ### Home Page
 
-The home page has contains the nav bar with all relevant links(Home, Blogs, Category, User) and the footer containing links(not real links) to the social media websites(Facebook, Twitter, Linkedin) and a Send Feedback link.
+The home page contains the nav bar with all relevant links (Home, Blogs, Category, User), in the body we have the most recent post (with the ability to scorl right/left) and the footer containing links to the social media websites (Facebook, Twitter, Linkedin) and a Send Feedback link.
 
 <img src="staticfiles/images/home.PNG">
 <img src="staticfiles/images/footer.png">
