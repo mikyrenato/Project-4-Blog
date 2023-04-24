@@ -199,7 +199,7 @@ There is a functinality built, which allows other user to comment and like your 
 
 ## Testing
 * Lighthouse for performance check:
-<img src="staticfiles/images/lighthouse.png">
+<img src="staticfiles/images/lighthouse.PNG">
 * [W3C HTML Validator](https://validator.w3.org/) was used to validate HTML codes.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS codes.
 * [JSHint](https://jshint.com/) was used to validate JavaScript codes.
