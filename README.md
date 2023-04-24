@@ -191,7 +191,7 @@ There is a functinality built, which allows other user to comment and like your 
 ## Frameworks, Libraries and Tools Used within the Application
 * [Django](https://www.djangoproject.com/) was used as the main Python framework for the application.
 * [ElephantSQL](https://www.elephantsql.com/) was used for the Production database.
-* [Cloudinary](https://cloudinary.com/) was used to store all static files and images. I had quite a challanging time with this as it wasn't reading all my CSS,not able to show "fontawesome" icons and some characters in the Description table(they all work perfectly on local), therefore I took the decision to use [Withenoise](https://whitenoise.readthedocs.io/en/latest/) after disussing this with my mentor.
+* [Cloudinary](https://cloudinary.com/) was used to store all static files and images. I had quite a challanging time with this as it wasn't reading all my CSS,not able to show "fontawesome" icons and some characters in the Description table(they all work perfectly on local), therefore I took the decision to use instead [Withenoise](https://whitenoise.readthedocs.io/en/latest/), after disussing this with my mentor.
 * [Git](https://git-scm.com/) was used for version control and tracked changes in the codes.
 * [GitHub](https://github.com/) was used to store the repository and the codes.
 * [Gitpod](https://www.gitpod.io/) was used to create, edit and preview the codes during the development.
