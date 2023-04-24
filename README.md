@@ -154,6 +154,7 @@ My Profile: The users can edit their details from here:
 <img src="staticfiles/images/profile.PNG">
 Using the My blogs page, users can view, edit and delete their posts.
 <img src="staticfiles/images/myblogs.PNG">
+Using the Add blog page, users can create new posts.
 <img src="staticfiles/images/add.PNG">
 
 
