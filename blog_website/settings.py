@@ -29,18 +29,19 @@ ALLOWED_HOSTS = ['project-4-blog.herokuapp.com', 'localhost', '8080-mikyrenato-p
 # Application definition
 
 INSTALLED_APPS = [
-    # 'cloudinary_storage',
+    'cloudinary_storage',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    "whitenoise.runserver_nostatic",
     'django.contrib.staticfiles',
     'blog',
     'user_profile',
     'notification',
     'ckeditor',
-    # 'cloudinary',
+    'cloudinary',
 
 ]
 
@@ -118,23 +119,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 
 MEDIA_URL = '/media/'
-# DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
-
 STATIC_URL = '/static/'
-# STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
 MEDIA_ROOT = BASE_DIR / 'media'
 STATIC_ROOT = BASE_DIR / "staticfiles"
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
-
-# STATIC_URL = '/static/'
-# MEDIA_URL = '/media/'
-# STATICFILES_DIRS = [BASE_DIR / 'assets']
-# MEDIA_ROOT = BASE_DIR / 'media'
-# STATIC_ROOT = BASE_DIR / 'staticfiles'
-
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
