@@ -4,7 +4,7 @@
 This Blog Website Django app is a powerful web application designed to facilitate the creation, management, and sharing of blog posts. With a comprehensive set of features, the app offers a complete solution for bloggers, content creators, and website owners.
 Overall, the Blog Website app provides a powerful and comprehensive solution for anyone looking to create, manage, and share their blog content in a secure and flexible manner.
 
-<img src="staticfiles/images/home.PNG">
+<img src="staticfiles/images/homepage.PNG">
 
 Project Summary and Features
 ================
@@ -108,13 +108,13 @@ When used together, blue and white can create a sophisticated and elegant aesthe
 ### Navigation Bar
 The navigation bar is fixed at the top of every page and includes links to other pages and a search box(searching posts).
 The link for the current page is shown in blue to visually indicate which page the user is on.
-<img src="staticfiles/images/nav.png">
+<img src="staticfiles/images/nav.PNG">
 
 ### Home Page
 
 The home page has contains the nav bar with all relevant links(Home, Blogs, Category, User) and the footer containing links(not real links) to the social media websites(Facebook, Twitter, Linkedin) and a Send Feedback link.
 
-<img src="staticfiles/images/home.png">
+<img src="staticfiles/images/home.PNG">
 <img src="staticfiles/images/footer.png">
 
 
@@ -122,7 +122,7 @@ The home page has contains the nav bar with all relevant links(Home, Blogs, Cate
 
 This Page shows the latest blog posts.
 
-<img src="staticfiles/images/blogs.png">
+<img src="staticfiles/images/blogs.PNG">
 
 
 ### Sign Up Page
@@ -135,14 +135,14 @@ Users can enter their details here to register and log in.
 Log In page is accessed from the Log In link on the navigation bar, which is available to users who are not logged in already.
 Returning users can enter their details here to log in to avail of all the features.
 
-<img src="staticfiles/images/log.png">
+<img src="staticfiles/images/log.PNG">
 
 
 ### Category
 
 The category button is a dropdown menu which can be used as a filter by category
 
-<img src="staticfiles/images/category.png">
+<img src="staticfiles/images/category.PNG">
 
 ### User(User name after loggin in)
 
@@ -151,7 +151,7 @@ The user button appears when you are loggedin and it is a dropdown menu which in
 <img src="staticfiles/images/users.png">
 
 My Profile: The users can edit their details from here:
-<img src="staticfiles/images/profile.png">
+<img src="staticfiles/images/profile.PNG">
 Using the My blogs page, users can view, edit and delete their posts.
 <img src="staticfiles/images/myblogs.png">
 <img src="staticfiles/images/edit.png">
