@@ -4,9 +4,9 @@
 This Blog Website Django app is a powerful web application designed to facilitate the creation, management, and sharing of blog posts. With a comprehensive set of features, the app offers a complete solution for bloggers, content creators, and website owners.
 Overall, the Blog Website app provides a powerful and comprehensive solution for anyone looking to create, manage, and share their blog content in a secure and flexible manner.
 
-<img src="staticfiles/images/home.png">
+<img src="staticfiles/images/homepage.PNG">
 
-Project Summary and Features
+Project Summary and Main Features
 ================
 
   + Crud operation on blogs
@@ -22,81 +22,88 @@ Project Summary and Features
   + Notification system
   + Mute unmute notifications
 
+
 Click here to view website: [Blog](https://project-4-blog.herokuapp.com/)
 
 
 # UXD - User Experience Design
 
 Epic 1: Blog Management
-As a user, I want to be able to perform CRUD operations on blogs so that I can create, read, update and delete my own blogs or blogs of other users.
++ As a user, I want to be able to perform CRUD operations on blogs so that I can create, read, update and delete my own blogs or blogs of other users.
 
 User Stories
-As a user, I want to be able to create a new blog post so that I can share my ideas with others.
-As a user, I want to be able to edit my existing blog post so that I can make changes to my post whenever I want.
-As a user, I want to be able to delete my own blog post so that I can remove any unwanted posts from my profile.
-As a user, I want to be able to view other users' blog posts so that I can read and learn from them.
-As a user, I want to be able to filter the blogs by different criteria such as title, category, and tags so that I can easily find the blogs of my interest.
++ As a user, I want to be able to create a new blog post so that I can share my ideas with others.
++ As a user, I want to be able to edit my existing blog post so that I can make changes to my post whenever I want.
++ As a user, I want to be able to delete my own blog post so that I can remove any unwanted posts from my profile.
++ As a user, I want to be able to view other users' blog posts so that I can read and learn from them.
++ As a user, I want to be able to filter the blogs by different criteria such as title, category, and tags so that I can easily find the blogs of my interest.
 
 Epic 2: User Management
-As a user, I want to be able to manage my personal profile and interact with other users in the platform.
++ As a user, I want to be able to manage my personal profile and interact with other users in the platform.
 
 User Stories
-As a user, I want to be able to register on the platform using my email and password so that I can create an account and use the platform.
-As a user, I want to be able to update my profile information such as name, profile picture.
-As a user, I want to be able to search for other users on the platform so that I can connect with them.
-As a user, I want to be able to follow/unfollow other users so that I can stay updated with their latest blog posts.
-As a user, I want to be able to like and comment on other users' blog posts so that I can interact with them.
-As a user, I want to be able to receive notifications for activities such as likes, comments, and follows so that I can stay informed.
-As a user, I want to be able to mute/unmute notifications so that I can customize my notification settings according to my preferences.
++ As a user, I want to be able to register on the platform using my email and password so that I can create an account and use the platform.
++ As a user, I want to be able to update my profile information such as name, profile picture.
++ As a user, I want to be able to search for other users on the platform so that I can connect with them.
++ As a user, I want to be able to follow/unfollow other users so that I can stay updated with their latest blog posts.
++ As a user, I want to be able to like and comment on other users' blog posts so that I can interact with them.
++ As a user, I want to be able to receive notifications for activities such as likes, comments, and follows so that I can stay informed.
++ As a user, I want to be able to mute/unmute notifications so that I can customize my notification settings according to my preferences.
 
 Epic 3: Security and Authentication
-As a user, I want my data to be secure and my account to be authenticated through multiple means.
++ As a user, I want my data to be secure and my account to be authenticated through multiple means.
 
 User Stories
-As a user, I want to be able to login using my email and password so that I can access my account.
-As a user, I want my account to be authenticated through both username and email so that my account is more secure.
-As a user, I want my password to be encrypted and my account information to be secure so that my data is safe from unauthorized access.
++ As a user, I want to be able to login using my email and password so that I can access my account.
++ As a user, I want my account to be authenticated through both username and email so that my account is more secure.
++ As a user, I want my password to be encrypted and my account information to be secure so that my data is safe from unauthorized access.
 
 Epic 4: Blog Interaction
-As a user, I want to be able to interact with other users' blog posts by commenting and replying to comments.
++ As a user, I want to be able to interact with other users' blog posts by commenting and replying to comments.
 
 User Stories
-As a user, I want to be able to comment on other users' blog posts so that I can express my thoughts and opinions.
-As a user, I want to be able to reply to other users' comments so that I can continue the conversation and engage with the community.
-As a user, I want to be able to like other users' comments so that I can express my agreement.
-As a user, I want to be able to receive notifications for new comments and replies on my blog posts so that I can stay engaged with the community.
++ As a user, I want to be able to comment on other users' blog posts so that I can express my thoughts and opinions.
++ As a user, I want to be able to reply to other users' comments so that I can continue the conversation and engage with the community.
++ As a user, I want to be able to like other users' comments so that I can express my agreement.
++ As a user, I want to be able to receive notifications for new comments and replies on my blog posts so that I can stay engaged with the community.
 
 Epic 5: Advanced Search and Filtering
-As a user, I want to be able to perform advanced searches and filtering on blogs based on various parameters.
++ As a user, I want to be able to perform advanced searches and filtering on blogs based on various parameters.
 
 User Stories
-As a user, I want to be able to search for blogs based on advanced parameters such as author and keyword.
++ As a user, I want to be able to search for blogs based on advanced parameters such as author and keyword.
 
 Epic 6: Feedback and Support
-As a user, I want to be able to give feedback and receive support from the admin so that I can improve my experience on the platform.
++ As a user, I want to be able to give feedback and receive support from the admin so that I can improve my experience on the platform.
 
 User Stories
-As a user, I want to be able to contact the admin through a support form so that I can report bugs or suggest improvements.
-As a user, I want to be able to receive timely and helpful responses from the admin so that my issues can be resolved quickly.
-As an admin, I want to be able to track user feedback and support requests so that I can improve the platform based on user needs.
-As an admin, I want to be able to respond to user feedback and support requests in a timely and professional manner so that users feel heard and valued.
++ As a user, I want to be able to contact the admin through a support form so that I can report bugs or suggest improvements.
++ As a user, I want to be able to receive timely and helpful responses from the admin so that my issues can be resolved quickly.
++ As an admin, I want to be able to track user feedback and support requests so that I can improve the platform based on user needs.
++ As an admin, I want to be able to respond to user feedback and support requests in a timely and professional manner so that users feel heard and valued.
+
+Epic 7: Admin Panel Access
++ As an administrator, I want to be able to access the admin panel easily, so that I can manage the website efficiently.
+
+User Story
++ As an administrator, I want to see a button that takes me to the admin panel when I'm logged in, so that I can quickly access the tools I need to manage the website. When I click the button, it should take me directly to the admin panel without requiring additional logins or authentication.
+
+Epic 8: Feedback Page
++ As an administrator, I want to have quick access to the feedback page without going through the admin panel.
+
+User Story
++ As an administrator, I want a button to appear on the navigation bar when I log in to the system, so that I can easily access the feedback page without navigating to the admin panel. The button should only be visible to me as an admin user, and clicking on it should take me directly to the feedback page.
 
 
 ## Agile Methodology
 This application was developed using agile methodology. 
 
-<img src="staticfiles/images/agile1.png">
-<img src="staticfiles/images/agile2.png">
-<img src="staticfiles/images/agile3.png">
-<img src="staticfiles/images/agile4.png">
-<img src="staticfiles/images/agile5.png">
-<img src="staticfiles/images/agile6.png">
-<img src="staticfiles/images/agile7.png">
+<img src="staticfiles/images/agile8.PNG">
 
 
 # Design
 
-The color paletteI chose is blue and white. It is a popular combination that can evoke a sense of calmness, professionalism, and simplicity.
+The color palette chose is blue and white. It is a popular combination that can evoke a sense of calmness, professionalism, and simplicity.
 White is a neutral color that can help create a clean and modern look for a website. It also provides a blank canvas that can be complemented with other colors to add emphasis or contrast.
 Blue, on the other hand, is often associated with trust, stability, and intelligence. It can convey a sense of security, which makes it a popular choice for corporate and financial websites. Blue can also be used to create a sense of depth and serenity, making it a popular choice for websites related to wellness, health, or technology.
 When used together, blue and white can create a sophisticated and elegant aesthetic that can be easily associated with professionalism and quality. The combination is a classic choice for businesses, organizations, and individuals looking for a timeless and reliable look for their website.
@@ -107,14 +114,14 @@ When used together, blue and white can create a sophisticated and elegant aesthe
 
 ### Navigation Bar
 The navigation bar is fixed at the top of every page and includes links to other pages and a search box(searching posts).
-The link for the current page is shown in blue to visually indicate which page the user is on.
-<img src="staticfiles/images/nav.png">
+The link for the current page is shown in grey to visually indicate which page the user is on.
+<img src="staticfiles/images/nav.PNG">
 
 ### Home Page
 
-The home page has contains the nav bar with all relevant links(Home, Blogs, Category, User) and the footer containing links(not real links) to the social media websites(Facebook, Twitter, Linkedin) and a Send Feedback link.
+The home page contains the nav bar with all relevant links (Home, Blogs, Category, User), in the body we have the most recent post (with the ability to scroll right/left) and the footer containing links to the social media websites (Facebook, Twitter, Linkedin) and a Send Feedback link.
 
-<img src="staticfiles/images/home.png">
+<img src="staticfiles/images/home.PNG">
 <img src="staticfiles/images/footer.png">
 
 
@@ -122,7 +129,7 @@ The home page has contains the nav bar with all relevant links(Home, Blogs, Cate
 
 This Page shows the latest blog posts.
 
-<img src="staticfiles/images/blogs.png">
+<img src="staticfiles/images/blogs.PNG">
 
 
 ### Sign Up Page
@@ -135,49 +142,61 @@ Users can enter their details here to register and log in.
 Log In page is accessed from the Log In link on the navigation bar, which is available to users who are not logged in already.
 Returning users can enter their details here to log in to avail of all the features.
 
-<img src="staticfiles/images/log.png">
+<img src="staticfiles/images/log.PNG">
 
 
 ### Category
 
 The category button is a dropdown menu which can be used as a filter by category
 
-<img src="staticfiles/images/category.png">
+<img src="staticfiles/images/categories.PNG">
 
-### User(User name after loggin in)
+### User(User name after login in)
 
-The user button appears when you are loggedin and it is a dropdown menu which includes: "My profile", "Notifications" and "Logout" options.
+The user button appears when you are logged in and it is a dropdown menu which includes: "My profile", "Notifications" and "Logout" options.
 
-<img src="staticfiles/images/users.png">
+<img src="staticfiles/images/users.PNG">
 
 My Profile: The users can edit their details from here:
-<img src="staticfiles/images/profile.png">
+<img src="staticfiles/images/profile.PNG">
 Using the My blogs page, users can view, edit and delete their posts.
-<img src="staticfiles/images/myblogs.png">
-<img src="staticfiles/images/edit.png">
+<img src="staticfiles/images/myblogs.PNG">
+Using the Add blog page, users can create new posts.
+<img src="staticfiles/images/add.PNG">
 
 
 ### Notifications
 
-From the notifications page you can view notifications regarding your posts(i.e another user liked your post)
+From the notifications page you can view notifications regarding your posts(i.e another user liked your post or started to follow you.)
 
-<img src="staticfiles/images/notifications.png">
+<img src="staticfiles/images/notifications.PNG">
 
 
 
 ### Footer
-The footer includes links to Facebook, Twitter and LinkedIn. 
+The footer includes links to Facebook, Twitter and LinkedIn plus a link where user can send feedback to the admin. 
 <img src="staticfiles/images/footer.png">
-<img src="staticfiles/images/feedback.png">
-<img src="staticfiles/images/thanks.png">
+<img src="staticfiles/images/send.PNG">
+<img src="staticfiles/images/thanks.PNG">
 
 ### Follow/Unfollow and Mute/Unmute notifications
-You can as well follo/unfollow other users and mute/unmute notifications:
-<img src="staticfiles/images/follow.png">
+You can as well follow/unfollow other users and mute/unmute notifications:
+<img src="staticfiles/images/follow.PNG">
 
 ### Comment and like on other users posts
-There is a functinality built, which allows other user to comment and like your posts:
-<img src="staticfiles/images/com.png">
+There is a functionality built, which allows other user to comment and like your posts:
+<img src="staticfiles/images/comment.PNG">
+
+
+### Feedback and Admin Panel buttons
+When logged as an admin, the user will have two more buttons, one in the nav bar, where they can easily see the feedback from other users and one on the bottom left, where they can easily access the admin panel.
+
+<img src="staticfiles/images/feed.PNG">
+
+
+### Error pages (404 and 500)
+<img src="staticfiles/images/404.PNG">
+<img src="staticfiles/images/500.PNG">
 
 
 # Technologies Used
@@ -191,19 +210,35 @@ There is a functinality built, which allows other user to comment and like your 
 ## Frameworks, Libraries and Tools Used within the Application
 * [Django](https://www.djangoproject.com/) was used as the main Python framework for the application.
 * [ElephantSQL](https://www.elephantsql.com/) was used for the Production database.
-* [Cloudinary](https://cloudinary.com/) was used initialy to store all static files and images. I had quite a challanging time with this as it wasn't reading all my CSS,not able to show "fontawesome" icons and some characters in the Description table(they all work perfectly on local), therefore I took the decision to use instead [Withenoise](https://whitenoise.readthedocs.io/en/latest/), only to realize later that you can't upload images on whitenoise, so what I did next was to use both Cloudianry (to store the images) and Whitenoise (to store the rest of the static files).
+* [Cloudinary](https://cloudinary.com/) was used initialy to store all static files and images. I had quite a challenging time with this as it wasn't reading all my CSS, not able to show "fontawesome" icons and some characters in the Description table(they all work perfectly on local), therefore I took the decision to use instead [Withenoise](https://whitenoise.readthedocs.io/en/latest/), only to realize later that you can't upload images on whitenoise, so what I did next was to use both Cloudinary (to store the images) and Whitenoise (to store the rest of the static files).
 * [Git](https://git-scm.com/) was used for version control and tracked changes in the codes.
 * [GitHub](https://github.com/) was used to store the repository and the codes.
 * [Gitpod](https://www.gitpod.io/) was used to create, edit and preview the codes during the development.
 * [Heroku](https://id.heroku.com/login) was used to deploy the application.
 
-## Testing
+## Validation
 * Lighthouse for performance check:
+
 <img src="staticfiles/images/lighthouse.PNG">
+
 * [W3C HTML Validator](https://validator.w3.org/) was used to validate HTML codes.
+
+<img src="staticfiles/images/html2.PNG">
+<img src="staticfiles/images/html1.PNG">
+
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS codes.
+
+<img src="staticfiles/images/css1.PNG">
+<img src="staticfiles/images/css2.PNG">
+
 * [JSHint](https://jshint.com/) was used to validate JavaScript codes.
-* [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate Python codes.
+
+<img src="staticfiles/images/js1.PNG">
+<img src="staticfiles/images/js2.PNG">
+
+
+## Testing
+
 
 ### Deployment - Heroku
 The following are the steps to deploy the application on Heroku.
@@ -224,7 +259,7 @@ The following are the steps to deploy the application on Heroku.
 14. Modify settings.py file
 15. Migrate Database Structure to the ElephantSQL database
 16. Push the Changes to GitHub
-17. Set Up Cloudinary
+17. Set Up Cloudinary and Whitenoise
 18. Set up Heroku Config Vars
 19. Update settings.py
 20. Create Static Files
