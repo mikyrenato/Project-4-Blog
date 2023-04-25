@@ -82,16 +82,17 @@ User Stories
 + As an admin, I want to be able to track user feedback and support requests so that I can improve the platform based on user needs.
 + As an admin, I want to be able to respond to user feedback and support requests in a timely and professional manner so that users feel heard and valued.
 
-Epic 7: As an administrator, I want to be able to access the admin panel easily, so that I can manage the website efficiently.
+Epic 7: Admin Panel Access
+As an administrator, I want to be able to access the admin panel easily, so that I can manage the website efficiently.
 
 User Story
 + As an administrator, I want to see a button that takes me to the admin panel when I'm logged in, so that I can quickly access the tools I need to manage the website. When I click the button, it should take me directly to the admin panel without requiring additional logins or authentication.
 
-Epic 8:
+Epic 8: Feedback Page
 As an administrator, I want to have quick access to the feedback page without going through the admin panel.
 
-User Story:
-As an administrator, I want a button to appear on the navigation bar when I log in to the system, so that I can easily access the feedback page without navigating to the admin panel. The button should only be visible to me as an admin user, and clicking on it should take me directly to the feedback page.
+User Story
++ As an administrator, I want a button to appear on the navigation bar when I log in to the system, so that I can easily access the feedback page without navigating to the admin panel. The button should only be visible to me as an admin user, and clicking on it should take me directly to the feedback page.
 
 
 ## Agile Methodology
@@ -191,7 +192,7 @@ There is a functionality built, which allows other user to comment and like your
 When logged as an admin, the user will have two more buttons, one in the nav bar, where they can easily see the feedback from other users and one on the bottom left, where they can easily access the admin panel.
 
 <img src="staticfiles/images/feed.PNG">
-<img src="staticfiles/images/panel.PNG">
+<img src="staticfiles/images/mess.PNG">
 
 
 # Technologies Used
