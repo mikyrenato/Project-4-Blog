@@ -331,3 +331,12 @@ def send_feedback(request):
     else:
         return render(request, 'send_feedback.html')
 
+
+from django.shortcuts import render
+from django.contrib.admin.views.decorators import staff_member_required
+from .models import Feedback
+
+@staff_member_required
+def feedback_list(request):
+    feedbacks = Feedback.objects.all()
+    return render(request, 'feedback_list.html', {'feedbacks': feedbacks})

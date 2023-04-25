@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div style="display: flex; justify-content: center;">
+    <table style="width: 80%;">
+      <thead>
+        <tr>
+            <th>User</th>
+            <th>Message</th>
+            <th>Date Created</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for feedback in feedbacks %}
+        <tr>
+          <td>{{ feedback.user }}</td>
+          <td>{{ feedback.message }}</td>
+          <td>{{ feedback.created_at }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}

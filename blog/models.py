@@ -116,12 +116,15 @@ class Reply(models.Model):
 
 from django.conf import settings
 from django.db import models
+from django.utils import timezone
+timezone.now()
 
 class Feedback(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+    email = models.EmailField()
     message = models.TextField()
-    date_sent = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.user} - {self.date_sent}"
-
+        return f"{self.user} - {self.created_at}"

@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 from .views import *
+from .views import feedback_list
 
 urlpatterns = [
     path('', home, name='home'),
@@ -15,4 +16,6 @@ urlpatterns = [
     path('add_blog/', add_blog, name='add_blog'),
     path('update_blog/<str:slug>/', update_blog, name='update_blog'),
     path('send_feedback/', views.send_feedback, name='send_feedback'),
+    path('feedback/', feedback_list, name='feedback_list'),
 ]
+
