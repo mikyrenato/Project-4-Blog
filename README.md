@@ -29,7 +29,7 @@ Click here to view website: [Blog](https://project-4-blog.herokuapp.com/)
 # UXD - User Experience Design
 
 Epic 1: Blog Management
-As a user, I want to be able to perform CRUD operations on blogs so that I can create, read, update and delete my own blogs or blogs of other users.
++ As a user, I want to be able to perform CRUD operations on blogs so that I can create, read, update and delete my own blogs or blogs of other users.
 
 User Stories
 + As a user, I want to be able to create a new blog post so that I can share my ideas with others.
@@ -39,7 +39,7 @@ User Stories
 + As a user, I want to be able to filter the blogs by different criteria such as title, category, and tags so that I can easily find the blogs of my interest.
 
 Epic 2: User Management
-As a user, I want to be able to manage my personal profile and interact with other users in the platform.
++ As a user, I want to be able to manage my personal profile and interact with other users in the platform.
 
 User Stories
 + As a user, I want to be able to register on the platform using my email and password so that I can create an account and use the platform.
@@ -51,7 +51,7 @@ User Stories
 + As a user, I want to be able to mute/unmute notifications so that I can customize my notification settings according to my preferences.
 
 Epic 3: Security and Authentication
-As a user, I want my data to be secure and my account to be authenticated through multiple means.
++ As a user, I want my data to be secure and my account to be authenticated through multiple means.
 
 User Stories
 + As a user, I want to be able to login using my email and password so that I can access my account.
@@ -59,7 +59,7 @@ User Stories
 + As a user, I want my password to be encrypted and my account information to be secure so that my data is safe from unauthorized access.
 
 Epic 4: Blog Interaction
-As a user, I want to be able to interact with other users' blog posts by commenting and replying to comments.
++ As a user, I want to be able to interact with other users' blog posts by commenting and replying to comments.
 
 User Stories
 + As a user, I want to be able to comment on other users' blog posts so that I can express my thoughts and opinions.
@@ -68,13 +68,13 @@ User Stories
 + As a user, I want to be able to receive notifications for new comments and replies on my blog posts so that I can stay engaged with the community.
 
 Epic 5: Advanced Search and Filtering
-As a user, I want to be able to perform advanced searches and filtering on blogs based on various parameters.
++ As a user, I want to be able to perform advanced searches and filtering on blogs based on various parameters.
 
 User Stories
 + As a user, I want to be able to search for blogs based on advanced parameters such as author and keyword.
 
 Epic 6: Feedback and Support
-As a user, I want to be able to give feedback and receive support from the admin so that I can improve my experience on the platform.
++ As a user, I want to be able to give feedback and receive support from the admin so that I can improve my experience on the platform.
 
 User Stories
 + As a user, I want to be able to contact the admin through a support form so that I can report bugs or suggest improvements.
@@ -83,13 +83,13 @@ User Stories
 + As an admin, I want to be able to respond to user feedback and support requests in a timely and professional manner so that users feel heard and valued.
 
 Epic 7: Admin Panel Access
-As an administrator, I want to be able to access the admin panel easily, so that I can manage the website efficiently.
++ As an administrator, I want to be able to access the admin panel easily, so that I can manage the website efficiently.
 
 User Story
 + As an administrator, I want to see a button that takes me to the admin panel when I'm logged in, so that I can quickly access the tools I need to manage the website. When I click the button, it should take me directly to the admin panel without requiring additional logins or authentication.
 
 Epic 8: Feedback Page
-As an administrator, I want to have quick access to the feedback page without going through the admin panel.
++ As an administrator, I want to have quick access to the feedback page without going through the admin panel.
 
 User Story
 + As an administrator, I want a button to appear on the navigation bar when I log in to the system, so that I can easily access the feedback page without navigating to the admin panel. The button should only be visible to me as an admin user, and clicking on it should take me directly to the feedback page.
@@ -192,7 +192,6 @@ There is a functionality built, which allows other user to comment and like your
 When logged as an admin, the user will have two more buttons, one in the nav bar, where they can easily see the feedback from other users and one on the bottom left, where they can easily access the admin panel.
 
 <img src="staticfiles/images/feed.PNG">
-<img src="staticfiles/images/mess.PNG">
 
 
 # Technologies Used
