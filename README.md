@@ -98,7 +98,7 @@ User Story
 ## Agile Methodology
 This application was developed using agile methodology. 
 
-<img src="staticfiles/images/agile8.png">
+<img src="staticfiles/images/agile8.PNG">
 
 
 # Design
@@ -194,6 +194,11 @@ When logged as an admin, the user will have two more buttons, one in the nav bar
 <img src="staticfiles/images/feed.PNG">
 
 
+### Error pages (404 and 500)
+<img src="staticfiles/images/404.PNG">
+<img src="staticfiles/images/500.PNG">
+
+
 # Technologies Used
 
 ## Languages
@@ -230,6 +235,9 @@ When logged as an admin, the user will have two more buttons, one in the nav bar
 
 <img src="staticfiles/images/js1.PNG">
 <img src="staticfiles/images/js2.PNG">
+
+
+## Testing
 
 
 ### Deployment - Heroku
