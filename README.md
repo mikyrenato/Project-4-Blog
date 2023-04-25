@@ -6,7 +6,7 @@ Overall, the Blog Website app provides a powerful and comprehensive solution for
 
 <img src="staticfiles/images/homepage.PNG">
 
-Project Summary and Features
+Project Summary and Main Features
 ================
 
   + Crud operation on blogs
@@ -21,6 +21,7 @@ Project Summary and Features
   + Follow unfollow other users
   + Notification system
   + Mute unmute notifications
+
 
 Click here to view website: [Blog](https://project-4-blog.herokuapp.com/)
 
@@ -81,22 +82,27 @@ User Stories
 + As an admin, I want to be able to track user feedback and support requests so that I can improve the platform based on user needs.
 + As an admin, I want to be able to respond to user feedback and support requests in a timely and professional manner so that users feel heard and valued.
 
+Epic 7: As an administrator, I want to be able to access the admin panel easily, so that I can manage the website efficiently.
+
+User Story
++ As an administrator, I want to see a button that takes me to the admin panel when I'm logged in, so that I can quickly access the tools I need to manage the website. When I click the button, it should take me directly to the admin panel without requiring additional logins or authentication.
+
+Epic 8:
+As an administrator, I want to have quick access to the feedback page without going through the admin panel.
+
+User Story:
+As an administrator, I want a button to appear on the navigation bar when I log in to the system, so that I can easily access the feedback page without navigating to the admin panel. The button should only be visible to me as an admin user, and clicking on it should take me directly to the feedback page.
+
 
 ## Agile Methodology
 This application was developed using agile methodology. 
 
-<img src="staticfiles/images/agile1.png">
-<img src="staticfiles/images/agile2.png">
-<img src="staticfiles/images/agile3.png">
-<img src="staticfiles/images/agile4.png">
-<img src="staticfiles/images/agile5.png">
-<img src="staticfiles/images/agile6.png">
-<img src="staticfiles/images/agile7.png">
+<img src="staticfiles/images/agile8.png">
 
 
 # Design
 
-The color paletteI chose is blue and white. It is a popular combination that can evoke a sense of calmness, professionalism, and simplicity.
+The color palette chose is blue and white. It is a popular combination that can evoke a sense of calmness, professionalism, and simplicity.
 White is a neutral color that can help create a clean and modern look for a website. It also provides a blank canvas that can be complemented with other colors to add emphasis or contrast.
 Blue, on the other hand, is often associated with trust, stability, and intelligence. It can convey a sense of security, which makes it a popular choice for corporate and financial websites. Blue can also be used to create a sense of depth and serenity, making it a popular choice for websites related to wellness, health, or technology.
 When used together, blue and white can create a sophisticated and elegant aesthetic that can be easily associated with professionalism and quality. The combination is a classic choice for businesses, organizations, and individuals looking for a timeless and reliable look for their website.
@@ -112,7 +118,7 @@ The link for the current page is shown in grey to visually indicate which page t
 
 ### Home Page
 
-The home page contains the nav bar with all relevant links (Home, Blogs, Category, User), in the body we have the most recent post (with the ability to scorl right/left) and the footer containing links to the social media websites (Facebook, Twitter, Linkedin) and a Send Feedback link.
+The home page contains the nav bar with all relevant links (Home, Blogs, Category, User), in the body we have the most recent post (with the ability to scroll right/left) and the footer containing links to the social media websites (Facebook, Twitter, Linkedin) and a Send Feedback link.
 
 <img src="staticfiles/images/home.PNG">
 <img src="staticfiles/images/footer.png">
@@ -144,9 +150,9 @@ The category button is a dropdown menu which can be used as a filter by category
 
 <img src="staticfiles/images/categories.PNG">
 
-### User(User name after loggin in)
+### User(User name after login in)
 
-The user button appears when you are loggedin and it is a dropdown menu which includes: "My profile", "Notifications" and "Logout" options.
+The user button appears when you are logged in and it is a dropdown menu which includes: "My profile", "Notifications" and "Logout" options.
 
 <img src="staticfiles/images/users.PNG">
 
@@ -177,8 +183,15 @@ You can as well follow/unfollow other users and mute/unmute notifications:
 <img src="staticfiles/images/follow.PNG">
 
 ### Comment and like on other users posts
-There is a functinality built, which allows other user to comment and like your posts:
+There is a functionality built, which allows other user to comment and like your posts:
 <img src="staticfiles/images/comment.PNG">
+
+
+### Feedback and Admin Panel buttons
+When logged as an admin, the user will have two more buttons, one in the nav bar, where they can easily see the feedback from other users and one on the bottom left, where they can easily access the admin panel.
+
+<img src="staticfiles/images/feed.PNG">
+<img src="staticfiles/images/panel.PNG">
 
 
 # Technologies Used
@@ -192,13 +205,13 @@ There is a functinality built, which allows other user to comment and like your 
 ## Frameworks, Libraries and Tools Used within the Application
 * [Django](https://www.djangoproject.com/) was used as the main Python framework for the application.
 * [ElephantSQL](https://www.elephantsql.com/) was used for the Production database.
-* [Cloudinary](https://cloudinary.com/) was used initialy to store all static files and images. I had quite a challanging time with this as it wasn't reading all my CSS,not able to show "fontawesome" icons and some characters in the Description table(they all work perfectly on local), therefore I took the decision to use instead [Withenoise](https://whitenoise.readthedocs.io/en/latest/), only to realize later that you can't upload images on whitenoise, so what I did next was to use both Cloudianry (to store the images) and Whitenoise (to store the rest of the static files).
+* [Cloudinary](https://cloudinary.com/) was used initialy to store all static files and images. I had quite a challenging time with this as it wasn't reading all my CSS, not able to show "fontawesome" icons and some characters in the Description table(they all work perfectly on local), therefore I took the decision to use instead [Withenoise](https://whitenoise.readthedocs.io/en/latest/), only to realize later that you can't upload images on whitenoise, so what I did next was to use both Cloudinary (to store the images) and Whitenoise (to store the rest of the static files).
 * [Git](https://git-scm.com/) was used for version control and tracked changes in the codes.
 * [GitHub](https://github.com/) was used to store the repository and the codes.
 * [Gitpod](https://www.gitpod.io/) was used to create, edit and preview the codes during the development.
 * [Heroku](https://id.heroku.com/login) was used to deploy the application.
 
-## Testing
+## Validation
 * Lighthouse for performance check:
 
 <img src="staticfiles/images/lighthouse.PNG">
@@ -217,8 +230,6 @@ There is a functinality built, which allows other user to comment and like your 
 
 <img src="staticfiles/images/js1.PNG">
 <img src="staticfiles/images/js2.PNG">
-
-Due to time constraint, I wasn't able to clear all error (this time was a little bit more time consuming than on previous projects, due to the complexity of this project), but will definetlly clear all of them in the near future.
 
 
 ### Deployment - Heroku
