@@ -176,7 +176,7 @@ From the notifications page you can view notifications regarding your posts(i.e 
 ### Footer
 The footer includes links to Facebook, Twitter and LinkedIn plus a link where user can send feedback to the admin. 
 <img src="staticfiles/images/footer.png">
-<img src="staticfiles/images/send.PNG">
+<img src="staticfiles/images/sendf.PNG">
 <img src="staticfiles/images/thanks.PNG">
 
 ### Follow/Unfollow and Mute/Unmute notifications
@@ -189,9 +189,9 @@ There is a functionality built, which allows other user to comment and like your
 
 
 ### Feedback and Admin Panel buttons
-When logged as an admin, the user will have two more buttons, one in the nav bar, where they can easily see the feedback from other users and one on the bottom left, where they can easily access the admin panel.
+When logged as an admin, the user will have two more buttons, one in the nav bar, where they can easily see the feedback from other users and one on the top left, where they can easily access the admin panel.
 
-<img src="staticfiles/images/feed.PNG">
+<img src="staticfiles/images/feeds.PNG">
 
 
 ### Error pages (404 and 500)
