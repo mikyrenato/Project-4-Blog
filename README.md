@@ -21,6 +21,7 @@ Project Summary and Main Features
   + Follow unfollow other users
   + Notification system
   + Mute unmute notifications
+  + Feedback functionalities
 
 
 Click here to view website: [Blog](https://project-4-blog.herokuapp.com/)
@@ -80,7 +81,6 @@ User Stories
 + As a user, I want to be able to contact the admin through a support form so that I can report bugs or suggest improvements.
 + As a user, I want to be able to receive timely and helpful responses from the admin so that my issues can be resolved quickly.
 + As an admin, I want to be able to track user feedback and support requests so that I can improve the platform based on user needs.
-+ As an admin, I want to be able to respond to user feedback and support requests in a timely and professional manner so that users feel heard and valued.
 
 Epic 7: Admin Panel Access
 + As an administrator, I want to be able to access the admin panel easily, so that I can manage the website efficiently.
@@ -176,7 +176,7 @@ From the notifications page you can view notifications regarding your posts(i.e 
 ### Footer
 The footer includes links to Facebook, Twitter and LinkedIn plus a link where user can send feedback to the admin. 
 <img src="staticfiles/images/footer.png">
-<img src="staticfiles/images/send.PNG">
+<img src="staticfiles/images/sendf.PNG">
 <img src="staticfiles/images/thanks.PNG">
 
 ### Follow/Unfollow and Mute/Unmute notifications
@@ -189,9 +189,9 @@ There is a functionality built, which allows other user to comment and like your
 
 
 ### Feedback and Admin Panel buttons
-When logged as an admin, the user will have two more buttons, one in the nav bar, where they can easily see the feedback from other users and one on the bottom left, where they can easily access the admin panel.
+When logged as an admin, the user will have two more buttons, one in the nav bar, where they can easily see the feedback from other users and one on the top left, where they can easily access the admin panel.
 
-<img src="staticfiles/images/feed.PNG">
+<img src="staticfiles/images/feeds.PNG">
 
 
 ### Error pages (404 and 500)
