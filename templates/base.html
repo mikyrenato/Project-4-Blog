@@ -12,6 +12,15 @@
 
     <title>{% block title %} {% endblock title %}</title>
 
+    {% if user.is_authenticated and user.is_staff %}
+    <table>
+      <tr>
+        <td>Welcome, {{ user.username }}!</td>
+        <td><a href="{% url 'admin:index' %}" class="btn btn-primary">Admin Panel</a></td>
+      </tr>
+    </table>
+    {% endif %}
+
     <!-- Bootstrap core CSS -->
     <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
@@ -69,15 +78,6 @@
 
     {% block scripts %}
     {% endblock scripts %}
-
-    {% if user.is_authenticated and user.is_staff %}
-  <table>
-    <tr>
-      <td>Welcome, {{ user.username }}!</td>
-      <td><a href="{% url 'admin:index' %}" class="btn btn-primary">Admin Panel</a></td>
-    </tr>
-  </table>
-{% endif %}
 
     
 </body>
