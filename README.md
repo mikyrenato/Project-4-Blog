@@ -21,6 +21,7 @@ Project Summary and Main Features
   + Follow unfollow other users
   + Notification system
   + Mute unmute notifications
+  + Feedback functionalities
 
 
 Click here to view website: [Blog](https://project-4-blog.herokuapp.com/)
@@ -80,7 +81,6 @@ User Stories
 + As a user, I want to be able to contact the admin through a support form so that I can report bugs or suggest improvements.
 + As a user, I want to be able to receive timely and helpful responses from the admin so that my issues can be resolved quickly.
 + As an admin, I want to be able to track user feedback and support requests so that I can improve the platform based on user needs.
-+ As an admin, I want to be able to respond to user feedback and support requests in a timely and professional manner so that users feel heard and valued.
 
 Epic 7: Admin Panel Access
 + As an administrator, I want to be able to access the admin panel easily, so that I can manage the website efficiently.
