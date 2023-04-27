@@ -194,7 +194,7 @@ When logged as an admin, the user will have two more buttons, one in the nav bar
 <img src="staticfiles/images/feeds.PNG">
 
 
-### Error pages (404 and 500)
+### Custom Error Pages
 <img src="staticfiles/images/404.PNG">
 <img src="staticfiles/images/500.PNG">
 
