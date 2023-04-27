@@ -224,7 +224,7 @@ When logged as an admin, the user will have two more buttons, one in the nav bar
 * [W3C HTML Validator](https://validator.w3.org/) was used to validate HTML codes.
 
 <img src="staticfiles/images/html2.PNG">
-<img src="staticfiles/images/html1.PNG">
+<img src="staticfiles/images/html3.PNG">
 
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS codes.
 
@@ -235,6 +235,11 @@ When logged as an admin, the user will have two more buttons, one in the nav bar
 
 <img src="staticfiles/images/js1.PNG">
 <img src="staticfiles/images/js2.PNG">
+
+* [CI Python Linter](https://pep8ci.herokuapp.com/#) was used to validate Python codes.
+
+<img src="staticfiles/images/py1.PNG">
+<img src="staticfiles/images/py2.PNG">
 
 
 ## Testing
