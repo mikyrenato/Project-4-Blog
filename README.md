@@ -176,8 +176,8 @@ From the notifications page you can view notifications regarding your posts(i.e 
 ### Footer
 The footer includes links to Facebook, Twitter and LinkedIn plus a link where user can send feedback to the admin. 
 <img src="staticfiles/images/footer.png">
-<img src="staticfiles/images/f.PNG">
-<img src="staticfiles/images/t.PNG">
+<img src="staticfiles/images/f.png">
+<img src="staticfiles/images/t.png">
 
 ### Follow/Unfollow and Mute/Unmute notifications
 You can as well follow/unfollow other users and mute/unmute notifications:
