@@ -242,7 +242,74 @@ When logged as an admin, the user will have two more buttons, one in the nav bar
 <img src="staticfiles/images/py2.PNG">
 
 
-## Testing
+## Manual Testing
+
+Crud Operation on Blogs
++ All CRUD operations (Create, Read, Update, Delete) are working correctly.
++ Create operation is correctly adding new blogs to the database with all the required fields.
++ Read operation correctly displays all blogs on the main blog page.
++ Update operation is correctly editing and updating blog posts in the database.
++ Delete operation is correctly deleting blog posts from the database.
++ All CRUD operations are correctly functioning on both the admin and user side.
+
+Custom User Model
++ Custom user model is correctly implemented and is functioning correctly.
++ New users can be created with all the required fields.
++ User authentication is correctly implemented with the custom user model.
++ User profiles are correctly linked to the custom user model and can be accessed by the user and the admin.
++ All user information is correctly stored in the database and can be edited and updated.
+
+Registration
++ User registration is correctly implemented and working.
++ All required fields for registration are correctly validated and stored in the database.
++ Duplicate username and email addresses are correctly rejected.
++ Error messages correctly display if any field is not valid.
+
+Authentication through Username Plus Email
++ User authentication through username and email is correctly implemented and working.
++ Users can log in using either their username or email and their password.
++ Error messages correctly display if login credentials are not valid.
+
+Personal Profile Management
++ Personal profile management is correctly implemented and working.
++ All user profile information is correctly stored in the database and can be edited and updated.
++ Users can correctly view their profile and change their profile picture.
++ Users can correctly update their password.
+
+Filter Blogs by Different Criteria (Title, Category, Tags)
++ Filtering blogs by different criteria is correctly implemented and working.
++ Users can correctly filter blogs by title, category, and tags.
+
+Search Blogs by Different Criteria
++ Searching blogs by different criteria is correctly implemented and working.
++ Users can correctly search blogs by keywords.
+
+Like Blogs
++ Liking blogs is correctly implemented and working.
++ Users can correctly like blogs and the number of likes is correctly reflected on the blog page.
+
+Comment and Replies on Blogs
++ Comments and replies on blogs are correctly implemented and working.
++ Users can correctly add comments and replies to blog posts.
++ All comments and replies are correctly stored in the database and are correctly displayed on the blog page.
+
+Follow Unfollow Other Users
++ Follow unfollow functionality is correctly implemented and working.
++ Users can correctly follow and unfollow other users.
++ All follow and unfollow actions are correctly stored in the database.
+
+Notification System
++ Notification system is correctly implemented and working.
++ Users correctly receive notifications for new comments, replies, and followers.
++ All notifications are correctly stored in the database.
++ Users can correctly view all their notifications.
+
+Feedback Functionalities
++ Feedback functionalities are correctly implemented and working.
++ Users can correctly submit feedback using the feedback form.
++ All feedback is correctly stored in the database and can be accessed by the admin.
++ Admin can correctly view and manage all feedback submissions.
+
 
 
 ### Deployment - Heroku
