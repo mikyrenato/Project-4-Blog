@@ -340,3 +340,15 @@ from .models import Feedback
 def feedback_list(request):
     feedbacks = Feedback.objects.all()
     return render(request, 'feedback_list.html', {'feedbacks': feedbacks})
+
+#Errors
+
+from django.shortcuts import render
+
+def handler404(request, exception):
+    return render(request, '404.html', status=404)
+
+from django.shortcuts import render
+
+def handler500(request):
+    return render(request, '500.html', status=500)

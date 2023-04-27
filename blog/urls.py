@@ -3,6 +3,9 @@ from . import views
 from .views import *
 from .views import feedback_list
 
+handler404 = 'blog.views.handler404'
+handler500 = 'blog.views.handler500'
+
 urlpatterns = [
     path('', home, name='home'),
     path('blogs/', blogs, name='blogs'),
