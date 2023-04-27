@@ -6,6 +6,10 @@ from .slugs import generate_unique_slug
 
 from ckeditor.fields import RichTextField
 
+from django.conf import settings
+from django.db import models
+from django.utils import timezone
+
 
 class Category(models.Model):
     title = models.CharField(max_length=150, unique=True)
@@ -26,7 +30,7 @@ class Tag(models.Model):
     created_date = models.DateField(auto_now_add=True)
 
     def __str__(self) -> str:
-        return self.title    
+        return self.title
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.title)
@@ -67,7 +71,7 @@ class Blog(models.Model):
 
     def save(self, *args, **kwargs):
         updating = self.pk is not None
-        
+
         if updating:
             self.slug = generate_unique_slug(self, self.title, update=True)
             super().save(*args, **kwargs)
@@ -112,15 +116,14 @@ class Reply(models.Model):
         return self.text
 
 
-# Feedback model
+# Feedback model (custom)
 
-from django.conf import settings
-from django.db import models
-from django.utils import timezone
 timezone.now()
 
+
 class Feedback(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL,
+                             on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
     email = models.EmailField()
     message = models.TextField()

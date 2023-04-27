@@ -7,7 +7,7 @@
       <form method="post">
         {% csrf_token %}
         <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="8" cols="150%" style="height: 200px;"></textarea><br>
+        <textarea id="message" name="message" rows="8" class="form-control" style="height: 200px;"></textarea><br>
         <input class="btn btn-primary mt-2" type="submit" value="Send">
       </form>
     </div>
